@@ -1,0 +1,668 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginVC"
+provides-nominal:
+- "C9InstaPics7LoginVC"
+provides-member:
+- ["C9InstaPics7LoginVC", ""]
+provides-dynamic-lookup:
+- "passwordTextField"
+- "viewDidLoad"
+- "emailTextField"
+- "loginPressed"
+depends-top-level:
+- "Helper"
+- "UITextField"
+- "AnyObject"
+- "LoginVC"
+- !private "&&"
+- !private "SwiftLoader"
+- !private "Auth"
+- !private ">"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- "UIViewController"
+depends-member:
+- !private ["Ps9AnyObject", "Auth"]
+- ["Ps9AnyObject", "Helper"]
+- !private ["Ps9AnyObject", "SwiftLoader"]
+- !private ["Ps9AnyObject", "characters"]
+- ["Ps9AnyObject", "emailTextField"]
+- !private ["Ps9AnyObject", "errorAlert"]
+- ["Ps9AnyObject", "helper"]
+- !private ["Ps9AnyObject", "hide"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- ["Ps9AnyObject", "loginPressed"]
+- !private ["Ps9AnyObject", "loginUser"]
+- ["Ps9AnyObject", "passwordTextField"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "show"]
+- !private ["Ps9AnyObject", "storyboard"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "trim"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["C9InstaPics4Auth", "deinit"]
+- !private ["C9InstaPics4Auth", "loginUser"]
+- !private ["C9InstaPics4Auth", "shared"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "hide"]
+- !private ["PSo15CALayerDelegate", "show"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Auth"]
+- ["Ps7CVarArg", "Helper"]
+- !private ["Ps7CVarArg", "SwiftLoader"]
+- !private ["Ps7CVarArg", "characters"]
+- ["Ps7CVarArg", "emailTextField"]
+- ["Ps7CVarArg", "helper"]
+- !private ["Ps7CVarArg", "hide"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- ["Ps7CVarArg", "loginPressed"]
+- ["Ps7CVarArg", "passwordTextField"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "show"]
+- !private ["Ps7CVarArg", "storyboard"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "trim"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["VSS13CharacterView", "IndexDistance"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "trim"]
+- !private ["Ps28CustomDebugStringConvertible", "Auth"]
+- ["Ps28CustomDebugStringConvertible", "Helper"]
+- !private ["Ps28CustomDebugStringConvertible", "SwiftLoader"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- ["Ps28CustomDebugStringConvertible", "emailTextField"]
+- ["Ps28CustomDebugStringConvertible", "helper"]
+- !private ["Ps28CustomDebugStringConvertible", "hide"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- ["Ps28CustomDebugStringConvertible", "loginPressed"]
+- ["Ps28CustomDebugStringConvertible", "passwordTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "show"]
+- !private ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "storyboard"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "trim"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "trim"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "trim"]
+- !private ["Ps23CustomStringConvertible", "Auth"]
+- ["Ps23CustomStringConvertible", "Helper"]
+- !private ["Ps23CustomStringConvertible", "SwiftLoader"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- ["Ps23CustomStringConvertible", "emailTextField"]
+- ["Ps23CustomStringConvertible", "helper"]
+- !private ["Ps23CustomStringConvertible", "hide"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- ["Ps23CustomStringConvertible", "loginPressed"]
+- ["Ps23CustomStringConvertible", "passwordTextField"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "show"]
+- !private ["Ps23CustomStringConvertible", "storyboard"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "trim"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Auth"]
+- ["Ps9Equatable", "Helper"]
+- !private ["Ps9Equatable", "SwiftLoader"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "characters"]
+- ["Ps9Equatable", "emailTextField"]
+- ["Ps9Equatable", "helper"]
+- !private ["Ps9Equatable", "hide"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- ["Ps9Equatable", "loginPressed"]
+- ["Ps9Equatable", "passwordTextField"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "show"]
+- !private ["Ps9Equatable", "storyboard"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "trim"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "trim"]
+- !private ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "trim"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "trim"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "trim"]
+- !private ["Ps8Hashable", "Auth"]
+- ["Ps8Hashable", "Helper"]
+- !private ["Ps8Hashable", "SwiftLoader"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "characters"]
+- ["Ps8Hashable", "emailTextField"]
+- ["Ps8Hashable", "helper"]
+- !private ["Ps8Hashable", "hide"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- ["Ps8Hashable", "loginPressed"]
+- ["Ps8Hashable", "passwordTextField"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "show"]
+- !private ["Ps8Hashable", "storyboard"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "trim"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["C9InstaPics6Helper", "deinit"]
+- !private ["C9InstaPics6Helper", "errorAlert"]
+- ["C9InstaPics6Helper", "init"]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "count"]
+- ["Si", "deinit"]
+- !private ["P10Kingfisher20KingfisherCompatible", "characters"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "trim"]
+- ["C9InstaPics7LoginVC", "AnyObject"]
+- !private ["C9InstaPics7LoginVC", "Auth"]
+- ["C9InstaPics7LoginVC", "Helper"]
+- !private ["C9InstaPics7LoginVC", "SwiftLoader"]
+- ["C9InstaPics7LoginVC", "UITextField"]
+- ["C9InstaPics7LoginVC", "deinit"]
+- ["C9InstaPics7LoginVC", "emailTextField"]
+- ["C9InstaPics7LoginVC", "helper"]
+- ["C9InstaPics7LoginVC", "init"]
+- ["C9InstaPics7LoginVC", "loginPressed"]
+- ["C9InstaPics7LoginVC", "passwordTextField"]
+- !private ["C9InstaPics7LoginVC", "present"]
+- !private ["C9InstaPics7LoginVC", "storyboard"]
+- ["C9InstaPics7LoginVC", "viewDidLoad"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "trim"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "trim"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "Auth"]
+- ["PSo8NSCoding", "Helper"]
+- !private ["PSo8NSCoding", "SwiftLoader"]
+- !private ["PSo8NSCoding", "characters"]
+- ["PSo8NSCoding", "emailTextField"]
+- ["PSo8NSCoding", "helper"]
+- !private ["PSo8NSCoding", "hide"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loginPressed"]
+- ["PSo8NSCoding", "passwordTextField"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "show"]
+- !private ["PSo8NSCoding", "storyboard"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "trim"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "trim"]
+- !private ["PSo26NSExtensionRequestHandling", "Auth"]
+- ["PSo26NSExtensionRequestHandling", "Helper"]
+- !private ["PSo26NSExtensionRequestHandling", "SwiftLoader"]
+- ["PSo26NSExtensionRequestHandling", "emailTextField"]
+- ["PSo26NSExtensionRequestHandling", "helper"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginPressed"]
+- ["PSo26NSExtensionRequestHandling", "passwordTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "trim"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Auth"]
+- ["CSo8NSObject", "Helper"]
+- !private ["CSo8NSObject", "SwiftLoader"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "characters"]
+- ["CSo8NSObject", "emailTextField"]
+- ["CSo8NSObject", "helper"]
+- !private ["CSo8NSObject", "hide"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- ["CSo8NSObject", "loginPressed"]
+- ["CSo8NSObject", "passwordTextField"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "show"]
+- !private ["CSo8NSObject", "storyboard"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "trim"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Auth"]
+- ["PSo16NSObjectProtocol", "Helper"]
+- !private ["PSo16NSObjectProtocol", "SwiftLoader"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- ["PSo16NSObjectProtocol", "emailTextField"]
+- ["PSo16NSObjectProtocol", "helper"]
+- !private ["PSo16NSObjectProtocol", "hide"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- ["PSo16NSObjectProtocol", "loginPressed"]
+- ["PSo16NSObjectProtocol", "passwordTextField"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "show"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "trim"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "trim"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "trim"]
+- ["Sq", "deinit"]
+- !private ["Sq", "some"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "count"]
+- !private ["SS", "characters"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "trim"]
+- !private ["C11SwiftLoader11SwiftLoader", "hide"]
+- !private ["C11SwiftLoader11SwiftLoader", "show"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "trim"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "trim"]
+- !private ["PSo29UIAccessibilityIdentification", "hide"]
+- !private ["PSo29UIAccessibilityIdentification", "show"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "hide"]
+- !private ["PSo12UIAppearance", "show"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Auth"]
+- ["PSo21UIAppearanceContainer", "Helper"]
+- !private ["PSo21UIAppearanceContainer", "SwiftLoader"]
+- ["PSo21UIAppearanceContainer", "emailTextField"]
+- ["PSo21UIAppearanceContainer", "helper"]
+- !private ["PSo21UIAppearanceContainer", "hide"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginPressed"]
+- ["PSo21UIAppearanceContainer", "passwordTextField"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "show"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Auth"]
+- ["PSo18UIContentContainer", "Helper"]
+- !private ["PSo18UIContentContainer", "SwiftLoader"]
+- ["PSo18UIContentContainer", "emailTextField"]
+- ["PSo18UIContentContainer", "helper"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginPressed"]
+- ["PSo18UIContentContainer", "passwordTextField"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "hide"]
+- !private ["PSo17UICoordinateSpace", "show"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "hide"]
+- !private ["PSo13UIDynamicItem", "show"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Auth"]
+- ["PSo18UIFocusEnvironment", "Helper"]
+- !private ["PSo18UIFocusEnvironment", "SwiftLoader"]
+- ["PSo18UIFocusEnvironment", "emailTextField"]
+- ["PSo18UIFocusEnvironment", "helper"]
+- !private ["PSo18UIFocusEnvironment", "hide"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginPressed"]
+- ["PSo18UIFocusEnvironment", "passwordTextField"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "show"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "hide"]
+- !private ["PSo11UIFocusItem", "show"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Auth"]
+- ["CSo11UIResponder", "Helper"]
+- !private ["CSo11UIResponder", "SwiftLoader"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "emailTextField"]
+- ["CSo11UIResponder", "helper"]
+- !private ["CSo11UIResponder", "hide"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginPressed"]
+- ["CSo11UIResponder", "passwordTextField"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "show"]
+- !private ["CSo11UIResponder", "storyboard"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "Auth"]
+- ["PSo30UIResponderStandardEditActions", "Helper"]
+- !private ["PSo30UIResponderStandardEditActions", "SwiftLoader"]
+- ["PSo30UIResponderStandardEditActions", "emailTextField"]
+- ["PSo30UIResponderStandardEditActions", "helper"]
+- !private ["PSo30UIResponderStandardEditActions", "hide"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "loginPressed"]
+- ["PSo30UIResponderStandardEditActions", "passwordTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "show"]
+- !private ["PSo30UIResponderStandardEditActions", "storyboard"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "Auth"]
+- ["PSo16UIStateRestoring", "Helper"]
+- !private ["PSo16UIStateRestoring", "SwiftLoader"]
+- ["PSo16UIStateRestoring", "emailTextField"]
+- ["PSo16UIStateRestoring", "helper"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginPressed"]
+- ["PSo16UIStateRestoring", "passwordTextField"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "deinit"]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "Auth"]
+- ["PSo18UITraitEnvironment", "Helper"]
+- !private ["PSo18UITraitEnvironment", "SwiftLoader"]
+- ["PSo18UITraitEnvironment", "emailTextField"]
+- ["PSo18UITraitEnvironment", "helper"]
+- !private ["PSo18UITraitEnvironment", "hide"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginPressed"]
+- ["PSo18UITraitEnvironment", "passwordTextField"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "show"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "hide"]
+- !private ["CSo6UIView", "show"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Auth"]
+- ["CSo16UIViewController", "Helper"]
+- !private ["CSo16UIViewController", "SwiftLoader"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "emailTextField"]
+- ["CSo16UIViewController", "helper"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginPressed"]
+- ["CSo16UIViewController", "passwordTextField"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "storyboard"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "hide"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "show"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "trim"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "trim"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "trim"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "trim"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "trim"]
+- !private ["Ps9_Hashable", "Auth"]
+- ["Ps9_Hashable", "Helper"]
+- !private ["Ps9_Hashable", "SwiftLoader"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "characters"]
+- ["Ps9_Hashable", "emailTextField"]
+- ["Ps9_Hashable", "helper"]
+- !private ["Ps9_Hashable", "hide"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- ["Ps9_Hashable", "loginPressed"]
+- ["Ps9_Hashable", "passwordTextField"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "show"]
+- !private ["Ps9_Hashable", "storyboard"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "trim"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "trim"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C9InstaPics4Auth"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "C9InstaPics6Helper"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- !private "P10Kingfisher20KingfisherCompatible"
+- "C9InstaPics7LoginVC"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- "SS"
+- !private "C11SwiftLoader11SwiftLoader"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/SwiftLoader/SwiftLoader.framework/Modules/SwiftLoader.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/SwiftLoader/SwiftLoader.framework/Headers/SwiftLoader-Swift.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/SwiftLoader/SwiftLoader.framework/Headers/SwiftLoader-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/SwiftLoader/SwiftLoader.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Sharaku/Sharaku.framework/Modules/Sharaku.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Sharaku/Sharaku.framework/Headers/Sharaku-Swift.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Sharaku/Sharaku.framework/Headers/Sharaku-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Sharaku/Sharaku.framework/Modules/module.modulemap"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/arm.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+interface-hash: "5a70950b084b50170d4d326d6c5609a5"

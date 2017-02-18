@@ -1,0 +1,98 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Resource"
+- "ImageResource"
+provides-nominal:
+- "P10Kingfisher8Resource"
+- "V10Kingfisher13ImageResource"
+- "V10Foundation3URL"
+provides-member:
+- ["P10Kingfisher8Resource", ""]
+- ["V10Kingfisher13ImageResource", ""]
+- ["V10Foundation3URL", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "AssignmentPrecedence"
+- "ImageResource"
+- "URL"
+- "Resource"
+- !private "??"
+depends-member:
+- !private ["Ps28CustomDebugStringConvertible", "absoluteString"]
+- ["Ps28CustomDebugStringConvertible", "cacheKey"]
+- ["Ps28CustomDebugStringConvertible", "downloadURL"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "absoluteString"]
+- ["Ps29CustomPlaygroundQuickLookable", "cacheKey"]
+- ["Ps29CustomPlaygroundQuickLookable", "downloadURL"]
+- !private ["Ps23CustomStringConvertible", "absoluteString"]
+- ["Ps23CustomStringConvertible", "cacheKey"]
+- ["Ps23CustomStringConvertible", "downloadURL"]
+- !private ["Ps9Equatable", "absoluteString"]
+- ["Ps9Equatable", "cacheKey"]
+- ["Ps9Equatable", "downloadURL"]
+- !private ["Ps8Hashable", "absoluteString"]
+- ["Ps8Hashable", "cacheKey"]
+- ["Ps8Hashable", "downloadURL"]
+- ["V10Kingfisher13ImageResource", "String"]
+- ["V10Kingfisher13ImageResource", "URL"]
+- ["V10Kingfisher13ImageResource", "cacheKey"]
+- ["V10Kingfisher13ImageResource", "deinit"]
+- ["V10Kingfisher13ImageResource", "downloadURL"]
+- ["V10Kingfisher13ImageResource", "init"]
+- ["Sq", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "absoluteString"]
+- ["P10Foundation20ReferenceConvertible", "cacheKey"]
+- ["P10Foundation20ReferenceConvertible", "downloadURL"]
+- ["P10Kingfisher8Resource", "String"]
+- ["P10Kingfisher8Resource", "URL"]
+- !private ["P10Kingfisher8Resource", "absoluteString"]
+- ["P10Kingfisher8Resource", "cacheKey"]
+- ["P10Kingfisher8Resource", "downloadURL"]
+- ["P10Kingfisher8Resource", ""]
+- ["SS", "deinit"]
+- ["V10Foundation3URL", "String"]
+- ["V10Foundation3URL", "URL"]
+- !private ["V10Foundation3URL", "absoluteString"]
+- ["V10Foundation3URL", "cacheKey"]
+- ["V10Foundation3URL", "deinit"]
+- ["V10Foundation3URL", "downloadURL"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "absoluteString"]
+- ["Ps34_ExpressibleByFileReferenceLiteral", "cacheKey"]
+- ["Ps34_ExpressibleByFileReferenceLiteral", "downloadURL"]
+- !private ["Ps9_Hashable", "absoluteString"]
+- ["Ps9_Hashable", "cacheKey"]
+- ["Ps9_Hashable", "downloadURL"]
+- !private ["Ps21_ObjectiveCBridgeable", "absoluteString"]
+- ["Ps21_ObjectiveCBridgeable", "cacheKey"]
+- ["Ps21_ObjectiveCBridgeable", "downloadURL"]
+depends-nominal:
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "V10Kingfisher13ImageResource"
+- "Sq"
+- "P10Foundation20ReferenceConvertible"
+- "P10Kingfisher8Resource"
+- "SS"
+- "V10Foundation3URL"
+- "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "8e5fdf5b9a3e0f7299d772fcdde101f7"

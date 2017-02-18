@@ -1,0 +1,374 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Transformer"
+- "CIImageProcessor"
+- "Filter"
+provides-nominal:
+- "P10Kingfisher16CIImageProcessor"
+- "V10Kingfisher6Filter"
+provides-member:
+- ["P10Kingfisher16CIImageProcessor", ""]
+- ["V10Kingfisher6Filter", ""]
+- ["C10Kingfisher10Kingfisher", ""]
+- ["CSo7UIImage", ""]
+- ["P10Kingfisher16CIImageProcessor", "process"]
+- ["C10Kingfisher10Kingfisher", "apply"]
+- ["CSo7UIImage", "kf_apply"]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- !private ">>"
+- "kCIInputColorKey"
+- "KingfisherOptionsInfo"
+- "ImageProcessItem"
+- "CIContext"
+- "Transformer"
+- "kCIInputEVKey"
+- "Filter"
+- !private "assertionFailure"
+- "CIImageProcessor"
+- "CIImage"
+- "Color"
+- "CIFilter"
+- "Kingfisher"
+- "Image"
+- "Dictionary"
+- "kCIInputSaturationKey"
+- "CIColor"
+- "CGFloat"
+- "kCIInputBackgroundImageKey"
+- "kCIInputImageKey"
+- "AssignmentPrecedence"
+- "ImageProcessor"
+- "kCIInputContrastKey"
+- "kCIInputBrightnessKey"
+- !private "DefaultImageProcessor"
+- !private "ciContext"
+depends-member:
+- !private ["Ps9AnyObject", "CIImage"]
+- ["Ps9AnyObject", "Image"]
+- !private ["Ps9AnyObject", "apply"]
+- ["Ps9AnyObject", "applyingFilter"]
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "base"]
+- !private ["Ps9AnyObject", "cgImage"]
+- !private ["Ps9AnyObject", "ciContext"]
+- !private ["Ps9AnyObject", "createCGImage"]
+- ["Ps9AnyObject", "cropping"]
+- ["Ps9AnyObject", "extent"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kf"]
+- ["Ps9AnyObject", "kf_apply"]
+- ["Ps9AnyObject", "outputImage"]
+- ["Ps9AnyObject", "setValue"]
+- ["Sa", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["CSo7CGImage", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- ["CSo7CIColor", "deinit"]
+- ["CSo7CIColor", "init"]
+- !private ["CSo9CIContext", "createCGImage"]
+- ["CSo9CIContext", "deinit"]
+- ["CSo9CIContext", "init"]
+- ["CSo8CIFilter", "deinit"]
+- ["CSo8CIFilter", "init"]
+- ["CSo8CIFilter", "outputImage"]
+- ["CSo8CIFilter", "setValue"]
+- ["CSo7CIImage", "applyingFilter"]
+- ["CSo7CIImage", "cropping"]
+- ["CSo7CIImage", "deinit"]
+- ["CSo7CIImage", "extent"]
+- !private ["CSo7CIImage", "init"]
+- !private ["P10Kingfisher16CIImageProcessor", "DefaultImageProcessor"]
+- ["P10Kingfisher16CIImageProcessor", "Filter"]
+- ["P10Kingfisher16CIImageProcessor", "Image"]
+- ["P10Kingfisher16CIImageProcessor", "ImageProcessItem"]
+- ["P10Kingfisher16CIImageProcessor", "KingfisherOptionsInfo"]
+- ["P10Kingfisher16CIImageProcessor", "filter"]
+- ["P10Kingfisher16CIImageProcessor", "process"]
+- ["P10Kingfisher16CIImageProcessor", ""]
+- ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "applyingFilter"]
+- !private ["Ps7CVarArg", "createCGImage"]
+- ["Ps7CVarArg", "cropping"]
+- ["Ps7CVarArg", "extent"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kf"]
+- ["Ps7CVarArg", "kf_apply"]
+- ["Ps7CVarArg", "outputImage"]
+- ["Ps7CVarArg", "setValue"]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "Value"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "applyingFilter"]
+- !private ["Ps28CustomDebugStringConvertible", "createCGImage"]
+- ["Ps28CustomDebugStringConvertible", "cropping"]
+- ["Ps28CustomDebugStringConvertible", "extent"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kf"]
+- ["Ps28CustomDebugStringConvertible", "kf_apply"]
+- ["Ps28CustomDebugStringConvertible", "outputImage"]
+- ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "Value"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "applyingFilter"]
+- !private ["Ps23CustomStringConvertible", "createCGImage"]
+- ["Ps23CustomStringConvertible", "cropping"]
+- ["Ps23CustomStringConvertible", "extent"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kf"]
+- ["Ps23CustomStringConvertible", "kf_apply"]
+- ["Ps23CustomStringConvertible", "outputImage"]
+- ["Ps23CustomStringConvertible", "setValue"]
+- !private ["V10Kingfisher21DefaultImageProcessor", "default"]
+- ["V10Kingfisher21DefaultImageProcessor", "deinit"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["Ps9Equatable", "applyingFilter"]
+- !private ["Ps9Equatable", "createCGImage"]
+- ["Ps9Equatable", "cropping"]
+- ["Ps9Equatable", "extent"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kf"]
+- ["Ps9Equatable", "kf_apply"]
+- ["Ps9Equatable", "outputImage"]
+- ["Ps9Equatable", "setValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["V10Kingfisher6Filter", "CGFloat"]
+- ["V10Kingfisher6Filter", "CIColor"]
+- ["V10Kingfisher6Filter", "CIFilter"]
+- ["V10Kingfisher6Filter", "Color"]
+- ["V10Kingfisher6Filter", "ColorElement"]
+- ["V10Kingfisher6Filter", "Filter"]
+- ["V10Kingfisher6Filter", "Transformer"]
+- ["V10Kingfisher6Filter", "colorControl"]
+- ["V10Kingfisher6Filter", "deinit"]
+- ["V10Kingfisher6Filter", "init"]
+- ["V10Kingfisher6Filter", "kCIInputBackgroundImageKey"]
+- ["V10Kingfisher6Filter", "kCIInputBrightnessKey"]
+- ["V10Kingfisher6Filter", "kCIInputColorKey"]
+- ["V10Kingfisher6Filter", "kCIInputContrastKey"]
+- ["V10Kingfisher6Filter", "kCIInputEVKey"]
+- ["V10Kingfisher6Filter", "kCIInputImageKey"]
+- ["V10Kingfisher6Filter", "kCIInputSaturationKey"]
+- ["V10Kingfisher6Filter", "tint"]
+- ["V10Kingfisher6Filter", "transform"]
+- ["Ps8Hashable", "applyingFilter"]
+- !private ["Ps8Hashable", "createCGImage"]
+- ["Ps8Hashable", "cropping"]
+- ["Ps8Hashable", "extent"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kf"]
+- ["Ps8Hashable", "kf_apply"]
+- ["Ps8Hashable", "outputImage"]
+- ["Ps8Hashable", "setValue"]
+- ["O10Kingfisher16ImageProcessItem", "data"]
+- ["O10Kingfisher16ImageProcessItem", "deinit"]
+- ["O10Kingfisher16ImageProcessItem", "image"]
+- !private ["P10Kingfisher14ImageProcessor", "DefaultImageProcessor"]
+- ["P10Kingfisher14ImageProcessor", "Filter"]
+- ["P10Kingfisher14ImageProcessor", "Image"]
+- ["P10Kingfisher14ImageProcessor", "ImageProcessItem"]
+- ["P10Kingfisher14ImageProcessor", "KingfisherOptionsInfo"]
+- !private ["P10Kingfisher14ImageProcessor", "default"]
+- ["P10Kingfisher14ImageProcessor", "deinit"]
+- ["P10Kingfisher14ImageProcessor", "filter"]
+- !private ["P10Kingfisher14ImageProcessor", "process"]
+- ["P10Kingfisher14ImageProcessor", ""]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "Value"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "Value"]
+- !private ["C10Kingfisher10Kingfisher", "CIImage"]
+- ["C10Kingfisher10Kingfisher", "Filter"]
+- ["C10Kingfisher10Kingfisher", "Image"]
+- ["C10Kingfisher10Kingfisher", "apply"]
+- !private ["C10Kingfisher10Kingfisher", "assertionFailure"]
+- !private ["C10Kingfisher10Kingfisher", "base"]
+- !private ["C10Kingfisher10Kingfisher", "cgImage"]
+- !private ["C10Kingfisher10Kingfisher", "ciContext"]
+- ["C10Kingfisher10Kingfisher", "deinit"]
+- ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "kf"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "applyingFilter"]
+- ["PSo8NSCoding", "cropping"]
+- ["PSo8NSCoding", "extent"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kf"]
+- ["PSo8NSCoding", "outputImage"]
+- ["PSo8NSCoding", "setValue"]
+- ["PSo9NSCopying", "applyingFilter"]
+- ["PSo9NSCopying", "cropping"]
+- ["PSo9NSCopying", "extent"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "outputImage"]
+- ["PSo9NSCopying", "setValue"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Filter"]
+- ["CSo8NSObject", "Image"]
+- ["CSo8NSObject", "applyingFilter"]
+- !private ["CSo8NSObject", "createCGImage"]
+- ["CSo8NSObject", "cropping"]
+- ["CSo8NSObject", "extent"]
+- !private ["CSo8NSObject", "imageOrientation"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kf"]
+- ["CSo8NSObject", "kf_apply"]
+- ["CSo8NSObject", "outputImage"]
+- !private ["CSo8NSObject", "scale"]
+- ["CSo8NSObject", "setValue"]
+- ["PSo16NSObjectProtocol", "applyingFilter"]
+- !private ["PSo16NSObjectProtocol", "createCGImage"]
+- ["PSo16NSObjectProtocol", "cropping"]
+- ["PSo16NSObjectProtocol", "extent"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kf"]
+- ["PSo16NSObjectProtocol", "kf_apply"]
+- ["PSo16NSObjectProtocol", "outputImage"]
+- ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo14NSSecureCoding", "applyingFilter"]
+- ["PSo14NSSecureCoding", "cropping"]
+- ["PSo14NSSecureCoding", "extent"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "kf"]
+- ["PSo14NSSecureCoding", "outputImage"]
+- ["PSo14NSSecureCoding", "setValue"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "Value"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "kf"]
+- ["CSo7UIColor", "deinit"]
+- ["CSo7UIImage", "Filter"]
+- ["CSo7UIImage", "Image"]
+- ["CSo7UIImage", "deinit"]
+- !private ["CSo7UIImage", "imageOrientation"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo7UIImage", "kf"]
+- ["CSo7UIImage", "kf_apply"]
+- !private ["CSo7UIImage", "scale"]
+- ["OSC18UIImageOrientation", "deinit"]
+- ["Su", "deinit"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "kf"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "applyingFilter"]
+- !private ["Ps9_Hashable", "createCGImage"]
+- ["Ps9_Hashable", "cropping"]
+- ["Ps9_Hashable", "extent"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kf"]
+- ["Ps9_Hashable", "kf_apply"]
+- ["Ps9_Hashable", "outputImage"]
+- ["Ps9_Hashable", "setValue"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "V12CoreGraphics7CGFloat"
+- "CSo7CGImage"
+- "VSC6CGRect"
+- "CSo7CIColor"
+- "CSo9CIContext"
+- "CSo8CIFilter"
+- "CSo7CIImage"
+- "P10Kingfisher16CIImageProcessor"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Kingfisher21DefaultImageProcessor"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "V10Kingfisher6Filter"
+- "Ps8Hashable"
+- "O10Kingfisher16ImageProcessItem"
+- "P10Kingfisher14ImageProcessor"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "C10Kingfisher10Kingfisher"
+- "P10Kingfisher20KingfisherCompatible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "Ps8Sequence"
+- "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo7UIColor"
+- "CSo7UIImage"
+- "OSC18UIImageOrientation"
+- "Su"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Intermediates/Pods.build/Debug-iphoneos/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "452e2cb023f21c0ff85bc992cc85fdfe"

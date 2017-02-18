@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "03a634980d721bb249d47695da6994ec"
+build_time: [540562203, 267434000]
+inputs:
+  "/Users/sol369/Desktop/InstaPics/Pods/Sharaku/Sharaku/Classes/SHCollectionViewCell.swift": [540560988, 0]
+  "/Users/sol369/Desktop/InstaPics/Pods/Sharaku/Sharaku/Classes/SHViewController.swift": [540560988, 0]

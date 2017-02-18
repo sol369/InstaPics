@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "b2926ae4b62f8caa345da4d09ac2cf80"
+build_time: [540562201, 629755000]
+inputs:
+  "/Users/sol369/Desktop/InstaPics/Pods/SwiftLoader/src/SwiftLoader/SwiftLoader.swift": [540549366, 0]

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Products/Debug-iphoneos/Sharaku/Sharaku.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Intermediates/Pods.build/Debug-iphoneos/Sharaku.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo12UIScrollView", ""]
+- ["CSo12UIScrollView", "shouldRestoreScrollViewContentOffset"]
+provides-dynamic-lookup:
+- "shouldRestoreScrollViewContentOffset"
+depends-top-level:
+- !private "objc_AssociationPolicy"
+- "CastingPrecedence"
+- !private "objc_getAssociatedObject"
+- "Bool"
+- !private "objc_setAssociatedObject"
+- !private "BooleanLiteralType"
+- "UIScrollView"
+- !private "kIQShouldRestoreScrollViewContentOffset"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps9AnyObject", "objc_AssociationPolicy"]
+- !private ["Ps9AnyObject", "objc_getAssociatedObject"]
+- !private ["Ps9AnyObject", "objc_setAssociatedObject"]
+- ["Ps9AnyObject", "shouldRestoreScrollViewContentOffset"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo15CALayerDelegate", "objc_AssociationPolicy"]
+- !private ["PSo15CALayerDelegate", "objc_getAssociatedObject"]
+- !private ["PSo15CALayerDelegate", "objc_setAssociatedObject"]
+- ["PSo15CALayerDelegate", "shouldRestoreScrollViewContentOffset"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps7CVarArg", "objc_AssociationPolicy"]
+- !private ["Ps7CVarArg", "objc_getAssociatedObject"]
+- !private ["Ps7CVarArg", "objc_setAssociatedObject"]
+- ["Ps7CVarArg", "shouldRestoreScrollViewContentOffset"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_AssociationPolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_setAssociatedObject"]
+- ["Ps28CustomDebugStringConvertible", "shouldRestoreScrollViewContentOffset"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps23CustomStringConvertible", "objc_AssociationPolicy"]
+- !private ["Ps23CustomStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps23CustomStringConvertible", "objc_setAssociatedObject"]
+- ["Ps23CustomStringConvertible", "shouldRestoreScrollViewContentOffset"]
+- !private ["Ps9Equatable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps9Equatable", "objc_AssociationPolicy"]
+- !private ["Ps9Equatable", "objc_getAssociatedObject"]
+- !private ["Ps9Equatable", "objc_setAssociatedObject"]
+- ["Ps9Equatable", "shouldRestoreScrollViewContentOffset"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps8Hashable", "objc_AssociationPolicy"]
+- !private ["Ps8Hashable", "objc_getAssociatedObject"]
+- !private ["Ps8Hashable", "objc_setAssociatedObject"]
+- ["Ps8Hashable", "shouldRestoreScrollViewContentOffset"]
+- ["SQ", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo8NSCoding", "objc_AssociationPolicy"]
+- !private ["PSo8NSCoding", "objc_getAssociatedObject"]
+- !private ["PSo8NSCoding", "objc_setAssociatedObject"]
+- ["PSo8NSCoding", "shouldRestoreScrollViewContentOffset"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["CSo8NSObject", "objc_AssociationPolicy"]
+- !private ["CSo8NSObject", "objc_getAssociatedObject"]
+- !private ["CSo8NSObject", "objc_setAssociatedObject"]
+- ["CSo8NSObject", "shouldRestoreScrollViewContentOffset"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo16NSObjectProtocol", "objc_AssociationPolicy"]
+- !private ["PSo16NSObjectProtocol", "objc_getAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "objc_setAssociatedObject"]
+- ["PSo16NSObjectProtocol", "shouldRestoreScrollViewContentOffset"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps16RawRepresentable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo29UIAccessibilityIdentification", "objc_AssociationPolicy"]
+- !private ["PSo29UIAccessibilityIdentification", "objc_getAssociatedObject"]
+- !private ["PSo29UIAccessibilityIdentification", "objc_setAssociatedObject"]
+- ["PSo29UIAccessibilityIdentification", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo12UIAppearance", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo12UIAppearance", "objc_AssociationPolicy"]
+- !private ["PSo12UIAppearance", "objc_getAssociatedObject"]
+- !private ["PSo12UIAppearance", "objc_setAssociatedObject"]
+- ["PSo12UIAppearance", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo21UIAppearanceContainer", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo21UIAppearanceContainer", "objc_AssociationPolicy"]
+- !private ["PSo21UIAppearanceContainer", "objc_getAssociatedObject"]
+- !private ["PSo21UIAppearanceContainer", "objc_setAssociatedObject"]
+- ["PSo21UIAppearanceContainer", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo17UICoordinateSpace", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo17UICoordinateSpace", "objc_AssociationPolicy"]
+- !private ["PSo17UICoordinateSpace", "objc_getAssociatedObject"]
+- !private ["PSo17UICoordinateSpace", "objc_setAssociatedObject"]
+- ["PSo17UICoordinateSpace", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo13UIDynamicItem", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo13UIDynamicItem", "objc_AssociationPolicy"]
+- !private ["PSo13UIDynamicItem", "objc_getAssociatedObject"]
+- !private ["PSo13UIDynamicItem", "objc_setAssociatedObject"]
+- ["PSo13UIDynamicItem", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo18UIFocusEnvironment", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo18UIFocusEnvironment", "objc_AssociationPolicy"]
+- !private ["PSo18UIFocusEnvironment", "objc_getAssociatedObject"]
+- !private ["PSo18UIFocusEnvironment", "objc_setAssociatedObject"]
+- ["PSo18UIFocusEnvironment", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo11UIFocusItem", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo11UIFocusItem", "objc_AssociationPolicy"]
+- !private ["PSo11UIFocusItem", "objc_getAssociatedObject"]
+- !private ["PSo11UIFocusItem", "objc_setAssociatedObject"]
+- ["PSo11UIFocusItem", "shouldRestoreScrollViewContentOffset"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["CSo11UIResponder", "objc_AssociationPolicy"]
+- !private ["CSo11UIResponder", "objc_getAssociatedObject"]
+- !private ["CSo11UIResponder", "objc_setAssociatedObject"]
+- ["CSo11UIResponder", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo30UIResponderStandardEditActions", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo30UIResponderStandardEditActions", "objc_AssociationPolicy"]
+- !private ["PSo30UIResponderStandardEditActions", "objc_getAssociatedObject"]
+- !private ["PSo30UIResponderStandardEditActions", "objc_setAssociatedObject"]
+- ["PSo30UIResponderStandardEditActions", "shouldRestoreScrollViewContentOffset"]
+- ["CSo12UIScrollView", "Bool"]
+- ["CSo12UIScrollView", "deinit"]
+- !private ["CSo12UIScrollView", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["CSo12UIScrollView", "objc_AssociationPolicy"]
+- !private ["CSo12UIScrollView", "objc_getAssociatedObject"]
+- !private ["CSo12UIScrollView", "objc_setAssociatedObject"]
+- ["CSo12UIScrollView", "shouldRestoreScrollViewContentOffset"]
+- !private ["PSo18UITraitEnvironment", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["PSo18UITraitEnvironment", "objc_AssociationPolicy"]
+- !private ["PSo18UITraitEnvironment", "objc_getAssociatedObject"]
+- !private ["PSo18UITraitEnvironment", "objc_setAssociatedObject"]
+- ["PSo18UITraitEnvironment", "shouldRestoreScrollViewContentOffset"]
+- ["CSo6UIView", "Bool"]
+- !private ["CSo6UIView", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["CSo6UIView", "objc_AssociationPolicy"]
+- !private ["CSo6UIView", "objc_getAssociatedObject"]
+- !private ["CSo6UIView", "objc_setAssociatedObject"]
+- ["CSo6UIView", "shouldRestoreScrollViewContentOffset"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "objc_AssociationPolicy"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "objc_getAssociatedObject"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "objc_setAssociatedObject"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "shouldRestoreScrollViewContentOffset"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kIQShouldRestoreScrollViewContentOffset"]
+- !private ["Ps9_Hashable", "objc_AssociationPolicy"]
+- !private ["Ps9_Hashable", "objc_getAssociatedObject"]
+- !private ["Ps9_Hashable", "objc_setAssociatedObject"]
+- ["Ps9_Hashable", "shouldRestoreScrollViewContentOffset"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["OSC22objc_AssociationPolicy", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo12UIScrollView"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Intermediates/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "9ff1b5e6b2416359deef340efffab65a"

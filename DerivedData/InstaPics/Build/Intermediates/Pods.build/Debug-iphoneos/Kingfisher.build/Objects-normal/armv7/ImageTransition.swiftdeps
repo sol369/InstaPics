@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageTransition"
+provides-nominal:
+- "O10Kingfisher15ImageTransition"
+provides-member:
+- ["O10Kingfisher15ImageTransition", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ImageTransition"
+- "TimeInterval"
+- !private "Array"
+- "Bool"
+- !private "AssignmentPrecedence"
+- "Void"
+- "UIImageView"
+- "UIImage"
+- "UIViewAnimationOptions"
+depends-member:
+- !private ["Ps9AnyObject", "image"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "transitionCrossDissolve"]
+- !private ["Ps9Equatable", "transitionFlipFromBottom"]
+- !private ["Ps9Equatable", "transitionFlipFromLeft"]
+- !private ["Ps9Equatable", "transitionFlipFromRight"]
+- !private ["Ps9Equatable", "transitionFlipFromTop"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "transitionCrossDissolve"]
+- !private ["Ps25ExpressibleByArrayLiteral", "transitionFlipFromBottom"]
+- !private ["Ps25ExpressibleByArrayLiteral", "transitionFlipFromLeft"]
+- !private ["Ps25ExpressibleByArrayLiteral", "transitionFlipFromRight"]
+- !private ["Ps25ExpressibleByArrayLiteral", "transitionFlipFromTop"]
+- !private ["Ps8Hashable", "image"]
+- ["O10Kingfisher15ImageTransition", "Bool"]
+- ["O10Kingfisher15ImageTransition", "TimeInterval"]
+- ["O10Kingfisher15ImageTransition", "UIImage"]
+- ["O10Kingfisher15ImageTransition", "UIImageView"]
+- ["O10Kingfisher15ImageTransition", "UIViewAnimationOptions"]
+- ["O10Kingfisher15ImageTransition", "Void"]
+- ["O10Kingfisher15ImageTransition", "animationOptions"]
+- ["O10Kingfisher15ImageTransition", "animations"]
+- ["O10Kingfisher15ImageTransition", "completion"]
+- ["O10Kingfisher15ImageTransition", "custom"]
+- ["O10Kingfisher15ImageTransition", "deinit"]
+- ["O10Kingfisher15ImageTransition", "duration"]
+- ["O10Kingfisher15ImageTransition", "fade"]
+- ["O10Kingfisher15ImageTransition", "flipFromBottom"]
+- ["O10Kingfisher15ImageTransition", "flipFromLeft"]
+- ["O10Kingfisher15ImageTransition", "flipFromRight"]
+- ["O10Kingfisher15ImageTransition", "flipFromTop"]
+- ["O10Kingfisher15ImageTransition", "none"]
+- !private ["P10Kingfisher20KingfisherCompatible", "image"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["CSo8NSObject", "image"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["Ps9OptionSet", "Element"]
+- !private ["Ps9OptionSet", "transitionCrossDissolve"]
+- !private ["Ps9OptionSet", "transitionFlipFromBottom"]
+- !private ["Ps9OptionSet", "transitionFlipFromLeft"]
+- !private ["Ps9OptionSet", "transitionFlipFromRight"]
+- !private ["Ps9OptionSet", "transitionFlipFromTop"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "transitionCrossDissolve"]
+- !private ["Ps16RawRepresentable", "transitionFlipFromBottom"]
+- !private ["Ps16RawRepresentable", "transitionFlipFromLeft"]
+- !private ["Ps16RawRepresentable", "transitionFlipFromRight"]
+- !private ["Ps16RawRepresentable", "transitionFlipFromTop"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "transitionCrossDissolve"]
+- !private ["Ps10SetAlgebra", "transitionFlipFromBottom"]
+- !private ["Ps10SetAlgebra", "transitionFlipFromLeft"]
+- !private ["Ps10SetAlgebra", "transitionFlipFromRight"]
+- !private ["Ps10SetAlgebra", "transitionFlipFromTop"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["CSo7UIImage", "deinit"]
+- !private ["CSo11UIImageView", "deinit"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIResponder", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["CSo6UIView", "image"]
+- !private ["VSC22UIViewAnimationOptions", "Element"]
+- ["VSC22UIViewAnimationOptions", "deinit"]
+- !private ["VSC22UIViewAnimationOptions", "transitionCrossDissolve"]
+- !private ["VSC22UIViewAnimationOptions", "transitionFlipFromBottom"]
+- !private ["VSC22UIViewAnimationOptions", "transitionFlipFromLeft"]
+- !private ["VSC22UIViewAnimationOptions", "transitionFlipFromRight"]
+- !private ["VSC22UIViewAnimationOptions", "transitionFlipFromTop"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps9_Hashable", "image"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "Sd"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps8Hashable"
+- "O10Kingfisher15ImageTransition"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "VSC22UIViewAnimationOptions"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Intermediates/Pods.build/Debug-iphoneos/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "512fd80091e46ea055c08042364daa0c"

@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+        IQKeyboardManager.sharedManager().enable = true
+        
+        if Auth.shared.isLoggedIn {
+            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let controller: UIViewController = storyboard.instantiateViewController(withIdentifier: "FeedVC")
+            self.window?.rootViewController = controller
+        }
+        
         return true
     }
 

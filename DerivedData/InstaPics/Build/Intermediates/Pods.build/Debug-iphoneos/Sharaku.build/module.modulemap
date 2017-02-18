@@ -1,0 +1,10 @@
+framework module Sharaku {
+  umbrella header "Sharaku-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Sharaku.Swift {
+    header "Sharaku-Swift.h"
+}

@@ -1,0 +1,288 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CacheSerializer"
+- "DefaultCacheSerializer"
+provides-nominal:
+- "P10Kingfisher15CacheSerializer"
+- "V10Kingfisher22DefaultCacheSerializer"
+provides-member:
+- ["P10Kingfisher15CacheSerializer", ""]
+- ["V10Kingfisher22DefaultCacheSerializer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "DefaultCacheSerializer"
+- !private "??"
+- !private "KingfisherEmptyOptionsInfo"
+- "Data"
+- "AssignmentPrecedence"
+- "Image"
+- "CacheSerializer"
+- "KingfisherOptionsInfo"
+- !private "Kingfisher"
+depends-member:
+- !private ["Ps9AnyObject", "gifRepresentation"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "imageFormat"]
+- !private ["Ps9AnyObject", "jpegRepresentation"]
+- !private ["Ps9AnyObject", "kf"]
+- !private ["Ps9AnyObject", "normalized"]
+- !private ["Ps9AnyObject", "pngRepresentation"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "onlyLoadFirstFrame"]
+- !private ["Sa", "preloadAllGIFData"]
+- !private ["Sa", "scaleFactor"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "kf"]
+- !private ["Ps23BidirectionalCollection", "onlyLoadFirstFrame"]
+- !private ["Ps23BidirectionalCollection", "preloadAllGIFData"]
+- !private ["Ps23BidirectionalCollection", "scaleFactor"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "kf"]
+- !private ["Ps22BidirectionalIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps22BidirectionalIndexable", "preloadAllGIFData"]
+- !private ["Ps22BidirectionalIndexable", "scaleFactor"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "kf"]
+- !private ["Ps7CVarArg", "onlyLoadFirstFrame"]
+- !private ["Ps7CVarArg", "preloadAllGIFData"]
+- !private ["Ps7CVarArg", "scaleFactor"]
+- ["P10Kingfisher15CacheSerializer", "Data"]
+- ["P10Kingfisher15CacheSerializer", "DefaultCacheSerializer"]
+- ["P10Kingfisher15CacheSerializer", "Image"]
+- !private ["P10Kingfisher15CacheSerializer", "Kingfisher"]
+- !private ["P10Kingfisher15CacheSerializer", "KingfisherEmptyOptionsInfo"]
+- ["P10Kingfisher15CacheSerializer", "KingfisherOptionsInfo"]
+- ["P10Kingfisher15CacheSerializer", "data"]
+- ["P10Kingfisher15CacheSerializer", "image"]
+- ["P10Kingfisher15CacheSerializer", "init"]
+- ["P10Kingfisher15CacheSerializer", ""]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "kf"]
+- !private ["Ps10Collection", "onlyLoadFirstFrame"]
+- !private ["Ps10Collection", "preloadAllGIFData"]
+- !private ["Ps10Collection", "scaleFactor"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "kf"]
+- !private ["Ps28CustomDebugStringConvertible", "onlyLoadFirstFrame"]
+- !private ["Ps28CustomDebugStringConvertible", "preloadAllGIFData"]
+- !private ["Ps28CustomDebugStringConvertible", "scaleFactor"]
+- !private ["Ps28CustomDebugStringConvertible", "unknown"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "kf"]
+- !private ["Ps17CustomReflectable", "onlyLoadFirstFrame"]
+- !private ["Ps17CustomReflectable", "preloadAllGIFData"]
+- !private ["Ps17CustomReflectable", "scaleFactor"]
+- !private ["Ps17CustomReflectable", "unknown"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "kf"]
+- !private ["Ps23CustomStringConvertible", "onlyLoadFirstFrame"]
+- !private ["Ps23CustomStringConvertible", "preloadAllGIFData"]
+- !private ["Ps23CustomStringConvertible", "scaleFactor"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["V10Foundation4Data", "kf"]
+- ["V10Kingfisher9DataProxy", "deinit"]
+- !private ["V10Kingfisher9DataProxy", "imageFormat"]
+- ["V10Kingfisher22DefaultCacheSerializer", "Data"]
+- ["V10Kingfisher22DefaultCacheSerializer", "DefaultCacheSerializer"]
+- ["V10Kingfisher22DefaultCacheSerializer", "Image"]
+- !private ["V10Kingfisher22DefaultCacheSerializer", "Kingfisher"]
+- !private ["V10Kingfisher22DefaultCacheSerializer", "KingfisherEmptyOptionsInfo"]
+- ["V10Kingfisher22DefaultCacheSerializer", "KingfisherOptionsInfo"]
+- ["V10Kingfisher22DefaultCacheSerializer", "data"]
+- ["V10Kingfisher22DefaultCacheSerializer", "default"]
+- ["V10Kingfisher22DefaultCacheSerializer", "deinit"]
+- ["V10Kingfisher22DefaultCacheSerializer", "image"]
+- ["V10Kingfisher22DefaultCacheSerializer", "init"]
+- ["Ps9Equatable", "GIF"]
+- ["Ps9Equatable", "JPEG"]
+- ["Ps9Equatable", "PNG"]
+- !private ["Ps9Equatable", "kf"]
+- ["Ps9Equatable", "unknown"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "onlyLoadFirstFrame"]
+- !private ["Ps25ExpressibleByArrayLiteral", "preloadAllGIFData"]
+- !private ["Ps25ExpressibleByArrayLiteral", "scaleFactor"]
+- !private ["Ps23ExpressibleByNilLiteral", "unknown"]
+- ["Ps8Hashable", "GIF"]
+- ["Ps8Hashable", "JPEG"]
+- ["Ps8Hashable", "PNG"]
+- !private ["Ps8Hashable", "kf"]
+- ["Ps8Hashable", "unknown"]
+- ["O10Kingfisher11ImageFormat", "GIF"]
+- ["O10Kingfisher11ImageFormat", "JPEG"]
+- ["O10Kingfisher11ImageFormat", "PNG"]
+- ["O10Kingfisher11ImageFormat", "deinit"]
+- ["O10Kingfisher11ImageFormat", "unknown"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "kf"]
+- !private ["Ps9Indexable", "onlyLoadFirstFrame"]
+- !private ["Ps9Indexable", "preloadAllGIFData"]
+- !private ["Ps9Indexable", "scaleFactor"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "kf"]
+- !private ["Ps13IndexableBase", "onlyLoadFirstFrame"]
+- !private ["Ps13IndexableBase", "preloadAllGIFData"]
+- !private ["Ps13IndexableBase", "scaleFactor"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["C10Kingfisher10Kingfisher", "deinit"]
+- !private ["C10Kingfisher10Kingfisher", "gifRepresentation"]
+- !private ["C10Kingfisher10Kingfisher", "image"]
+- !private ["C10Kingfisher10Kingfisher", "imageFormat"]
+- !private ["C10Kingfisher10Kingfisher", "jpegRepresentation"]
+- !private ["C10Kingfisher10Kingfisher", "normalized"]
+- !private ["C10Kingfisher10Kingfisher", "pngRepresentation"]
+- !private ["P10Kingfisher20KingfisherCompatible", "kf"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "kf"]
+- !private ["Ps17MutableCollection", "onlyLoadFirstFrame"]
+- !private ["Ps17MutableCollection", "preloadAllGIFData"]
+- !private ["Ps17MutableCollection", "scaleFactor"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "kf"]
+- !private ["Ps16MutableIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps16MutableIndexable", "preloadAllGIFData"]
+- !private ["Ps16MutableIndexable", "scaleFactor"]
+- !private ["PSo8NSCoding", "kf"]
+- !private ["CSo8NSObject", "kf"]
+- !private ["PSo16NSObjectProtocol", "kf"]
+- !private ["PSo14NSSecureCoding", "kf"]
+- ["Sq", "deinit"]
+- !private ["Sq", "unknown"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "kf"]
+- !private ["Ps22RandomAccessCollection", "onlyLoadFirstFrame"]
+- !private ["Ps22RandomAccessCollection", "preloadAllGIFData"]
+- !private ["Ps22RandomAccessCollection", "scaleFactor"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "kf"]
+- !private ["Ps21RandomAccessIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps21RandomAccessIndexable", "preloadAllGIFData"]
+- !private ["Ps21RandomAccessIndexable", "scaleFactor"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "kf"]
+- !private ["Ps26RangeReplaceableCollection", "onlyLoadFirstFrame"]
+- !private ["Ps26RangeReplaceableCollection", "preloadAllGIFData"]
+- !private ["Ps26RangeReplaceableCollection", "scaleFactor"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "kf"]
+- !private ["Ps25RangeReplaceableIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps25RangeReplaceableIndexable", "preloadAllGIFData"]
+- !private ["Ps25RangeReplaceableIndexable", "scaleFactor"]
+- !private ["P10Foundation20ReferenceConvertible", "kf"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "kf"]
+- !private ["Ps8Sequence", "onlyLoadFirstFrame"]
+- !private ["Ps8Sequence", "preloadAllGIFData"]
+- !private ["Ps8Sequence", "scaleFactor"]
+- !private ["PSo29UIAccessibilityIdentification", "kf"]
+- ["CSo7UIImage", "deinit"]
+- !private ["CSo7UIImage", "kf"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "onlyLoadFirstFrame"]
+- !private ["Ps14_ArrayProtocol", "preloadAllGIFData"]
+- !private ["Ps14_ArrayProtocol", "scaleFactor"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "onlyLoadFirstFrame"]
+- !private ["Ps24_DestructorSafeContainer", "preloadAllGIFData"]
+- !private ["Ps24_DestructorSafeContainer", "scaleFactor"]
+- !private ["Ps26_ExpressibleByImageLiteral", "kf"]
+- ["Ps9_Hashable", "GIF"]
+- ["Ps9_Hashable", "JPEG"]
+- ["Ps9_Hashable", "PNG"]
+- !private ["Ps9_Hashable", "kf"]
+- ["Ps9_Hashable", "unknown"]
+- !private ["P10Foundation18_MutablePairBoxing", "kf"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "kf"]
+- !private ["Ps21_ObjectiveCBridgeable", "onlyLoadFirstFrame"]
+- !private ["Ps21_ObjectiveCBridgeable", "preloadAllGIFData"]
+- !private ["Ps21_ObjectiveCBridgeable", "scaleFactor"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- !private "Ps7CVarArg"
+- "P10Kingfisher15CacheSerializer"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "V10Kingfisher9DataProxy"
+- "V10Kingfisher22DefaultCacheSerializer"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- "O10Kingfisher11ImageFormat"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- "C10Kingfisher10Kingfisher"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo7UIImage"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps9_Hashable"
+- !private "P10Foundation18_MutablePairBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "17284976f2663d5c145c06a7e36da1a7"

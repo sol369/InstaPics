@@ -1,0 +1,10 @@
+framework module SwiftLoader {
+  umbrella header "SwiftLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftLoader.Swift {
+    header "SwiftLoader-Swift.h"
+}

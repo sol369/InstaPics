@@ -1,0 +1,16 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "311c3864a2f2c5efd2d75d90097e3777"
+build_time: [540562227, 508528000]
+inputs:
+  "/Users/sol369/Desktop/InstaPics/InstaPics/FeedVC.swift": !dirty [540561108, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Post.swift": !dirty [540559713, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/FeedCell.swift": !dirty [540559490, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/SignupVC.swift": !dirty [540560509, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Helper.swift": !dirty [540556764, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/LoginVC.swift": !dirty [540548805, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/PostVC.swift": !dirty [540562076, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/AppDelegate.swift": !dirty [540562109, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Database.swift": !dirty [540560121, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Banner.swift": !dirty [540556629, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Auth.swift": !dirty [540558113, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Storage.swift": !dirty [540558153, 0]

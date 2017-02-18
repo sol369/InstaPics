@@ -1,0 +1,352 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KingfisherOptionsInfo"
+- "KingfisherEmptyOptionsInfo"
+- "KingfisherOptionsInfoItem"
+- "ItemComparisonPrecedence"
+- "<=="
+- "<=="
+provides-nominal:
+- "O10Kingfisher25KingfisherOptionsInfoItem"
+provides-member:
+- ["O10Kingfisher25KingfisherOptionsInfoItem", ""]
+- ["Ps10Collection", ""]
+- ["Ps10Collection", "firstMatchIgnoringAssociatedValue"]
+- ["Ps10Collection", "removeAllMatchesIgnoringAssociatedValue"]
+- ["Ps10Collection", "targetCache"]
+- ["Ps10Collection", "downloader"]
+- ["Ps10Collection", "transition"]
+- ["Ps10Collection", "downloadPriority"]
+- ["Ps10Collection", "forceRefresh"]
+- ["Ps10Collection", "forceTransition"]
+- ["Ps10Collection", "cacheMemoryOnly"]
+- ["Ps10Collection", "onlyFromCache"]
+- ["Ps10Collection", "backgroundDecode"]
+- ["Ps10Collection", "preloadAllGIFData"]
+- ["Ps10Collection", "callbackDispatchQueue"]
+- ["Ps10Collection", "scaleFactor"]
+- ["Ps10Collection", "modifier"]
+- ["Ps10Collection", "processor"]
+- ["Ps10Collection", "cacheSerializer"]
+- ["Ps10Collection", "keepCurrentImageWhileLoading"]
+- ["Ps10Collection", "onlyLoadFirstFrame"]
+provides-dynamic-lookup:
+depends-top-level:
+- "LogicalConjunctionPrecedence"
+- "Float"
+- "Collection"
+- !private "DefaultCacheSerializer"
+- "CGFloat"
+- !private "DefaultImageProcessor"
+- "ImageProcessor"
+- "ImageCache"
+- "ImageDownloadRequestModifier"
+- "Bool"
+- "DispatchQueue"
+- !private "BooleanLiteralType"
+- !private "??"
+- !private "NoModifier"
+- !private "URLSessionTask"
+- !private "!"
+- "ImageDownloader"
+- "KingfisherOptionsInfo"
+- "KingfisherOptionsInfoItem"
+- "ImageTransition"
+- "<=="
+- "KingfisherEmptyOptionsInfo"
+- "CacheSerializer"
+depends-member:
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "defaultPriority"]
+- !private ["Ps9AnyObject", "main"]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps22BidirectionalIndexable", "init"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "defaultPriority"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["P10Kingfisher15CacheSerializer", "default"]
+- ["P10Kingfisher15CacheSerializer", "deinit"]
+- ["Ps10Collection", "Bool"]
+- ["Ps10Collection", "CGFloat"]
+- ["Ps10Collection", "CacheSerializer"]
+- !private ["Ps10Collection", "DefaultCacheSerializer"]
+- !private ["Ps10Collection", "DefaultImageProcessor"]
+- ["Ps10Collection", "DispatchQueue"]
+- ["Ps10Collection", "Float"]
+- ["Ps10Collection", "ImageCache"]
+- ["Ps10Collection", "ImageDownloadRequestModifier"]
+- ["Ps10Collection", "ImageDownloader"]
+- ["Ps10Collection", "ImageProcessor"]
+- ["Ps10Collection", "ImageTransition"]
+- !private ["Ps10Collection", "Index"]
+- ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "KingfisherOptionsInfoItem"]
+- !private ["Ps10Collection", "NoModifier"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "URLSessionTask"]
+- !private ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "backgroundDecode"]
+- ["Ps10Collection", "cacheMemoryOnly"]
+- ["Ps10Collection", "cacheSerializer"]
+- ["Ps10Collection", "callbackDispatchQueue"]
+- !private ["Ps10Collection", "contains"]
+- ["Ps10Collection", "downloadPriority"]
+- ["Ps10Collection", "downloader"]
+- !private ["Ps10Collection", "filter"]
+- ["Ps10Collection", "firstMatchIgnoringAssociatedValue"]
+- ["Ps10Collection", "forceRefresh"]
+- ["Ps10Collection", "forceTransition"]
+- !private ["Ps10Collection", "index"]
+- ["Ps10Collection", "init"]
+- ["Ps10Collection", "keepCurrentImageWhileLoading"]
+- ["Ps10Collection", "modifier"]
+- ["Ps10Collection", "onlyFromCache"]
+- ["Ps10Collection", "onlyLoadFirstFrame"]
+- ["Ps10Collection", "preloadAllGIFData"]
+- ["Ps10Collection", "processor"]
+- ["Ps10Collection", "removeAllMatchesIgnoringAssociatedValue"]
+- ["Ps10Collection", "scaleFactor"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Collection", "targetCache"]
+- ["Ps10Collection", "transition"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultPriority"]
+- !private ["Ps28CustomDebugStringConvertible", "flatMap"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps17CustomReflectable", "flatMap"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "defaultPriority"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["V10Kingfisher22DefaultCacheSerializer", "default"]
+- ["V10Kingfisher22DefaultCacheSerializer", "deinit"]
+- !private ["V10Kingfisher21DefaultImageProcessor", "default"]
+- ["V10Kingfisher21DefaultImageProcessor", "deinit"]
+- !private ["CSo14DispatchObject", "main"]
+- ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "defaultPriority"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "flatMap"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Sf", "deinit"]
+- !private ["Ps8Hashable", "defaultPriority"]
+- !private ["Ps8Hashable", "main"]
+- !private ["C10Kingfisher10ImageCache", "default"]
+- ["C10Kingfisher10ImageCache", "deinit"]
+- !private ["P10Kingfisher28ImageDownloadRequestModifier", "default"]
+- ["P10Kingfisher28ImageDownloadRequestModifier", "deinit"]
+- !private ["C10Kingfisher15ImageDownloader", "default"]
+- ["C10Kingfisher15ImageDownloader", "deinit"]
+- !private ["P10Kingfisher23ImageDownloaderDelegate", "default"]
+- !private ["P10Kingfisher14ImageProcessor", "default"]
+- ["P10Kingfisher14ImageProcessor", "deinit"]
+- ["O10Kingfisher15ImageTransition", "deinit"]
+- !private ["O10Kingfisher15ImageTransition", "none"]
+- ["Ps9Indexable", "Bool"]
+- ["Ps9Indexable", "CGFloat"]
+- ["Ps9Indexable", "CacheSerializer"]
+- !private ["Ps9Indexable", "DefaultCacheSerializer"]
+- !private ["Ps9Indexable", "DefaultImageProcessor"]
+- ["Ps9Indexable", "DispatchQueue"]
+- ["Ps9Indexable", "Float"]
+- ["Ps9Indexable", "ImageCache"]
+- ["Ps9Indexable", "ImageDownloadRequestModifier"]
+- ["Ps9Indexable", "ImageDownloader"]
+- ["Ps9Indexable", "ImageProcessor"]
+- ["Ps9Indexable", "ImageTransition"]
+- !private ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "Iterator"]
+- ["Ps9Indexable", "KingfisherOptionsInfoItem"]
+- !private ["Ps9Indexable", "NoModifier"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "URLSessionTask"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "contains"]
+- !private ["Ps9Indexable", "filter"]
+- !private ["Ps9Indexable", "firstMatchIgnoringAssociatedValue"]
+- !private ["Ps9Indexable", "index"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- ["Ps13IndexableBase", "Bool"]
+- ["Ps13IndexableBase", "CGFloat"]
+- ["Ps13IndexableBase", "CacheSerializer"]
+- !private ["Ps13IndexableBase", "DefaultCacheSerializer"]
+- !private ["Ps13IndexableBase", "DefaultImageProcessor"]
+- ["Ps13IndexableBase", "DispatchQueue"]
+- ["Ps13IndexableBase", "Float"]
+- ["Ps13IndexableBase", "ImageCache"]
+- ["Ps13IndexableBase", "ImageDownloadRequestModifier"]
+- ["Ps13IndexableBase", "ImageDownloader"]
+- ["Ps13IndexableBase", "ImageProcessor"]
+- ["Ps13IndexableBase", "ImageTransition"]
+- !private ["Ps13IndexableBase", "Index"]
+- ["Ps13IndexableBase", "Iterator"]
+- ["Ps13IndexableBase", "KingfisherOptionsInfoItem"]
+- !private ["Ps13IndexableBase", "NoModifier"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "URLSessionTask"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "contains"]
+- !private ["Ps13IndexableBase", "filter"]
+- !private ["Ps13IndexableBase", "firstMatchIgnoringAssociatedValue"]
+- !private ["Ps13IndexableBase", "index"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "CGFloat"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "CacheSerializer"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "DispatchQueue"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "Float"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageCache"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageDownloadRequestModifier"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageDownloader"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageProcessor"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageTransition"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "backgroundDecode"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "cacheMemoryOnly"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "cacheSerializer"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "callbackDispatchQueue"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "deinit"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "downloadPriority"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "downloader"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "forceRefresh"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "forceTransition"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "keepCurrentImageWhileLoading"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "onlyFromCache"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "onlyLoadFirstFrame"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "preloadAllGIFData"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "processor"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "requestModifier"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "scaleFactor"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "targetCache"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "transition"]
+- ["Ps17MutableCollection", "init"]
+- ["Ps16MutableIndexable", "init"]
+- !private ["PSo9NSCopying", "defaultPriority"]
+- !private ["CSo8NSObject", "defaultPriority"]
+- !private ["CSo8NSObject", "main"]
+- !private ["PSo16NSObjectProtocol", "defaultPriority"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["V10Kingfisher10NoModifier", "default"]
+- ["V10Kingfisher10NoModifier", "deinit"]
+- !private ["CSo9OS_object", "main"]
+- ["Sq", "deinit"]
+- !private ["Sq", "flatMap"]
+- ["Sq", "some"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps21RandomAccessIndexable", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- ["Ps8Sequence", "Bool"]
+- ["Ps8Sequence", "CGFloat"]
+- ["Ps8Sequence", "CacheSerializer"]
+- !private ["Ps8Sequence", "DefaultCacheSerializer"]
+- !private ["Ps8Sequence", "DefaultImageProcessor"]
+- ["Ps8Sequence", "DispatchQueue"]
+- !private ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Float"]
+- ["Ps8Sequence", "ImageCache"]
+- ["Ps8Sequence", "ImageDownloadRequestModifier"]
+- ["Ps8Sequence", "ImageDownloader"]
+- ["Ps8Sequence", "ImageProcessor"]
+- ["Ps8Sequence", "ImageTransition"]
+- !private ["Ps8Sequence", "Index"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "KingfisherOptionsInfoItem"]
+- !private ["Ps8Sequence", "NoModifier"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "URLSessionTask"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "deinit"]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "firstMatchIgnoringAssociatedValue"]
+- !private ["Ps8Sequence", "index"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["CSo14URLSessionTask", "defaultPriority"]
+- ["Ps14_ArrayProtocol", "init"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps9_Hashable", "defaultPriority"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "P10Kingfisher15CacheSerializer"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Kingfisher22DefaultCacheSerializer"
+- "V10Kingfisher21DefaultImageProcessor"
+- !private "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- !private "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Sf"
+- !private "Ps8Hashable"
+- "C10Kingfisher10ImageCache"
+- "P10Kingfisher28ImageDownloadRequestModifier"
+- "C10Kingfisher15ImageDownloader"
+- !private "P10Kingfisher23ImageDownloaderDelegate"
+- "P10Kingfisher14ImageProcessor"
+- "O10Kingfisher15ImageTransition"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- "O10Kingfisher25KingfisherOptionsInfoItem"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "V10Kingfisher10NoModifier"
+- !private "CSo9OS_object"
+- "Sq"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- !private "Vs5Slice"
+- !private "CSo14URLSessionTask"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sol369/Desktop/InstaPics/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/sol369/Desktop/InstaPics/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/sol369/Desktop/InstaPics/DerivedData/InstaPics/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6f1c508622583718b143421270bad636"

@@ -1,0 +1,19 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "d324512de2350cb5ee8ab0efff26f24b"
+build_time: [540716027, 133610000]
+inputs:
+  "/Users/sol369/Desktop/InstaPics/InstaPics/FeedVC.swift": [540715574, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Post.swift": [540559713, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/FeedCell.swift": [540559490, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/SignupVC.swift": [540715509, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Helper.swift": [540715332, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/LoginVC.swift": [540715392, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/PostVC.swift": [540715808, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/AppDelegate.swift": [540713055, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/User.swift": [9223372036854775807, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/ProfileVC.swift": [9223372036854775807, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Database.swift": [540715274, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Banner.swift": [540715340, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Auth.swift": [540715219, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/Storage.swift": [540715313, 0]
+  "/Users/sol369/Desktop/InstaPics/InstaPics/ProfileCell.swift": [9223372036854775807, 0]
